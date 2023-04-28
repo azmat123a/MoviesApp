@@ -15,7 +15,7 @@ export const search_by_title = async (title, year, plot) => {
 
     }
     if (plot == 'Full') { PLOT = `&p=${plot}` }
-    const url = `http://www.omdbapi.com/${Title}${YEAR}${PLOT}${key}`
+    const url = `https://www.omdbapi.com/${Title}${YEAR}${PLOT}${key}`
     try {
         const response = await axios.get(url);
         if (response.data?.Search) {
@@ -43,7 +43,7 @@ export const search_by_title = async (title, year, plot) => {
 
 export const search_by_imdbID = async (id) => {
     // https://www.omdbapi.com/?i=tt1877830&apikey=f06b2cc3
-    const url = `http://www.omdbapi.com/?i=${id}${key}`
+    const url = `https://www.omdbapi.com/?i=${id}${key}`
     try {
         const response = await axios.get(url);
         return { res: response.data, display: 'Single', Response: true }
