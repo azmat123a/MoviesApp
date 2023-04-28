@@ -1,0 +1,19 @@
+.modal {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+}
+h3{
+    color: #1cd47e !important;
+    font-size: 24pt;
+}
+.icon{
+    color: #1cd47e !important;
+}
+
+.fail_modal h3{
+    color: #fc3a30!important;
+    font-size: 24pt;
+}
+.fail_modal .icon{
+    color: #fc3a30 !important;
+}

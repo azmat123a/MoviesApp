@@ -1,0 +1,17 @@
+.header span{
+    font-size: 22pt;
+    font-family: 'Righteous', Arial, Helvetica, sans-serif;
+    color: rgb(247, 31, 2);
+    font-weight: bold;
+
+}
+.header{
+    height: 10em;
+   /* background-color: rgb(0, 0, 0) !important; */
+   background:linear-gradient(to bottom, #000000, #222224, #040404,#000000,#000000);
+   box-shadow: 0 2px 4px rgba(247, 231, 2, 0.3);
+}
+/* .header {
+    background: linear-gradient(90deg, #ff0000, #ff0000 10%, #23343c 10%, #1e2c3c 40%, #39434a 60%, #39434a 90%, #ff0000 90%);
+  } */
+  
